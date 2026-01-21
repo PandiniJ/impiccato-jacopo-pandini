@@ -1,5 +1,18 @@
 const parole = [
-  "casa","albero"
+  "casa","albero","computer","scuola","montagna","fiume","gatto","cane",
+  "telefono","tastiera","finestra","porta","quaderno","penna","libro","zaino",
+  "strada","macchina","bicicletta","aereo","treno","mare","spiaggia","sole",
+  "luna","stella","nuvola","pioggia","vento","neve","pizza","pasta","gelato",
+  "cioccolato","biscotto","acqua","succo","musica","chitarra","pianoforte",
+  "film","attore","regista","gioco","console","joystick","schermo","monitor",
+  "mouse","programma","codice","algoritmo","rete","internet","server",
+  "database","password","sicurezza","login","account","lampada","tavolo",
+  "sedia","divano","letto","cuscino","coperta","armadio","specchio","orologio",
+  "giardino","fiore","foglia","prato","bosco","deserto","isola","vulcano",
+  "pianeta","universo","astronauta","razzo","satellite","missione","robot",
+  "intelligenza","futuro","tecnologia","energia","batteria","motore",
+  "circuito","sensore","segnale","frequenza","numero","variabile","funzione",
+  "matrice","puntatore"
 ];
 const maxvite = 6;
 let gameover = false;
@@ -131,4 +144,5 @@ function nuovaPartita(){
 
 creaTastiera();
 partita();
+
 
