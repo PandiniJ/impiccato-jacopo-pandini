@@ -54,7 +54,7 @@ function gestisciClick(lettera, cella) {
     if (!trovata) {
         vite--;
         let idCuore = "pt" + (maxvite - vite);
-        document.getElementById(idCuore).innerHTML = '<img src="x.PNG" width="75">';
+        document.getElementById(idCuore).innerHTML = '<img src="x.png" width="75">';
         alert("Lettera sbagliata! Vite rimaste: " + vite);
 
         if (vite <= 0) {
@@ -101,7 +101,7 @@ function partita() {
     gameover = false;
 
     for (let i = 1; i <= maxvite; i++) {
-        document.getElementById("pt" + i).innerHTML = '<img src="cuore.PNG" width="75">';
+        document.getElementById("pt" + i).innerHTML = '<img src="cuore.png" width="75">';
     }
 
     for (let l in statoLettere) {
@@ -131,3 +131,4 @@ function nuovaPartita(){
 
 creaTastiera();
 partita();
+
